@@ -4,7 +4,9 @@ A modern, responsive SaaS landing page and portfolio website built with React an
 
 ## 🚀 Live Demo
 
-The application is running at: `http://localhost:5175/`
+**🌐 Live Application**: [https://saas-application-tau.vercel.app/](https://saas-application-tau.vercel.app/)
+
+**💻 Local Development**: `http://localhost:5175/`
 
 ## 🛠️ Tech Stack
 
@@ -263,7 +265,21 @@ npm run preview
 ```
 
 ### **Deployment Options**
-- **Vercel** - Recommended for React applications
+
+#### **Vercel (Recommended)**
+✅ **Currently Deployed**: [https://saas-application-tau.vercel.app/](https://saas-application-tau.vercel.app/)
+
+```bash
+# Install Vercel CLI
+npm i -g vercel
+
+# Deploy to Vercel
+vercel
+
+# Or connect your GitHub repository to Vercel for automatic deployments
+```
+
+#### **Other Options**
 - **Netlify** - Static site hosting
 - **AWS S3** - Static website hosting
 - **GitHub Pages** - Free hosting for open source
